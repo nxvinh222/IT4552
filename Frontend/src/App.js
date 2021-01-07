@@ -5,7 +5,7 @@ import "./App.css";
 
 import Login from './containers/Login'
 import AdminDashboard from './containers/admin/AdminDashboard';
-import ManagerDashboard from './containers/manager/ManagerDashboard';
+// import ManagerDashboard from './containers/manager/ManagerDashboard';
 import StoreInfo from './components/StoreInfo';
 import ProductPage from './containers/manager/ProductPage';
 import StaffPage from './containers/admin/StaffPage';

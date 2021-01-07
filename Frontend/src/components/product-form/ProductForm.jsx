@@ -109,7 +109,7 @@ export default class ProductFrom extends Component {
                                         <div className="col-md-12">
                                             <div className="form-group">
                                                 <label htmlFor="form_number">Giá bán (VND) <span className="required"> *</span></label>
-                                                <input id="form_number" name="price" value={this.state.price} type="text" className="form-control" required="required" onChange={this.handleChange} />
+                                                <input id="form_number" name="price" value={this.state.price} type="number" className="form-control" required="required" onChange={this.handleChange} />
                                             </div>
                                         </div>
                                     </> :
